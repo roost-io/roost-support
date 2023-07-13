@@ -8,7 +8,7 @@ base_url="https://github.com/roost-io/roost-support/releases/download/v1.0.0/roo
 macos() {
     url="${base_url}macos"
     echo "Download MacOS binary from $url"
-    curl -o /var/tmp/roostgpt $url
+    curl -o /var/tmp/roostgpt -L $url
     echo "install roostgpt binary"
     chmod +x /var/tmp/roostgpt
     cp /var/tmp/roostgpt /usr/local/bin
@@ -17,7 +17,7 @@ macos() {
 linux() {
     url="${base_url}linux"
     echo "Download linux binary from $url"
-    curl -o /var/tmp/roostgpt $url
+    curl -o /var/tmp/roostgpt -L $url
     echo "install roostgpt binary"
     chmod +x /var/tmp/roostgpt
     cp /var/tmp/roostgpt /usr/local/bin
@@ -26,7 +26,7 @@ linux() {
 windows() {
     url="${base_url}win.exe"
     echo "Download windows binary from url"
-    curl -o C:/Temp/roostgpt.exe $url
+    curl -o C:/Temp/roostgpt.exe -L $url
     echo "install roostgpt binary"
 }
 
