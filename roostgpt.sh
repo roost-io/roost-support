@@ -4,7 +4,8 @@ ostype=$(uname)
 OS=${OS:-$ostype}
 echo "OS:[$OS]"
 
-base_url="https://github.com/roost-io/roost-support/releases/download/v1.0.0/roostgpt-"
+base_url="https://github.com/roost-io/roost-support/releases/latest/download/roostgpt-"
+
 macos() {
     url="${base_url}macos"
     echo "Download MacOS binary from $url"
