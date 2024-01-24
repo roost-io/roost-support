@@ -26,8 +26,8 @@ linux() {
 
 windows() {
     url="${base_url}win.exe"
-    echo "Download windows binary from url"
-    curl -o C:/Temp/roostgpt.exe -L $url
+    echo "Download windows binary from $url"
+    curl -o C:/Windows/Temp/roostgpt.exe -L $url
     echo "install roostgpt binary"
 }
 
