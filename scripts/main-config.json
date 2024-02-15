@@ -1,0 +1,47 @@
+{
+  "enterprise_name": "MyCompany",
+  "enterprise_logo": "https://roost.ai/hubfs/logos/Roost.ai-logo-gold.svg",
+  "enterprise_email_domain": "mycompany.io",
+  "enterprise_dns": "mycompany.io",
+  "admin_email": "admin@mycompany.io",
+
+  "email_sender": "",
+  "email_sender_pass": "",
+  "email_smtp_host": "",
+  "email_smtp_port": "",
+
+  "enterprise_ssl_certificate_path": "",
+  "enterprise_ssl_certificate_key_path": "",
+  "ENV_SERVER": {
+    "GOOGLE_CLIENT_ID": "",
+    "GOOGLE_CLIENT_SECRET": "",
+    "AZURE_CLIENT_ID": "",
+    "AZURE_CLIENT_SECRET": "",
+    "GITHUB_CLIENT_ID": "",
+    "GITHUB_CLIENT_SECRET": "",
+    "LINKEDIN_CLIENT_ID": "",
+    "LINKEDIN_CLIENT_SECRET": "",
+    "OKTA_CLIENT_ISSUER": "https://dev-53854943.okta.com/oauth2/default",
+    "OKTA_CLIENT_ID": "0oa3x8katznHWlHeD5d7",
+    "OKTA_CLIENT_SECRET": "7WtBP5NPtqx_VQlEFQms6Gf2cRS-n58pIJ-nifvc",
+    "AZURE_ADFS_CLIENT_ISSUER": "",
+    "AZURE_ADFS_CLIENT_ID": "",
+    "AZURE_ADFS_CLIENT_SECRET": ""
+  },
+
+  "ecs_mode": "false",
+  "gpt_only": "false",
+  "use_no_auth": "false",
+  "use_as_roost_cloud_server": "false",
+
+  "is_own_sql": "false",
+  "ENV_DATABASE": {
+    "DB_HOST_TYPE": "mysql",
+    "DB_HOST": "localhost",
+    "DB_PORT": 3306,
+    "DB_USERNAME": "Roost",
+    "DB_PASSWORD": "Roost#123",
+    "DB_ROOT_PASSWORD": "Admin#123",
+    "DB_SCHEMA_NAME": "roostio"
+  }
+}
