@@ -1919,6 +1919,7 @@ CREATE TABLE IF NOT EXISTS `test_gpt` (
   `git_type` VARCHAR(45) NULL,
   `source_repo` VARCHAR(100) NULL,
   `source_branch` VARCHAR(100) NULL,
+  `connector_ids` TEXT NULL,
   PRIMARY KEY (`id`)
 )
 ENGINE = InnoDB
@@ -1948,6 +1949,7 @@ CREATE TABLE IF NOT EXISTS `test_gpt_events` (
   `ai_model_info` TEXT NULL,
   `additional_info` TEXT NULL,
   `integration_info` TEXT NULL,
+  `retrigger_data` TEXT NULL,
   PRIMARY KEY (`id`)
 )
 ENGINE = InnoDB
