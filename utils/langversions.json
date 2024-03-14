@@ -88,6 +88,11 @@
     { "title": "v17.0.0", "key": "17.0.0" },
     { "title": "v16.14.0", "key": "16.14.0" }
   ],
+  "cpp": [
+    { "title": "C++23", "key": "23" },
+    { "title": "C++20", "key": "20" },
+    { "title": "C++17", "key": "17" }
+  ],
   "mavenVersions": [
     { "title": "Maven 3.8.6 (Default)", "key": "3.8.6" },
     { "title": "Maven 3.8.2", "key": "3.8.2" },
