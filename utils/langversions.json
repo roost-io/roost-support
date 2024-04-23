@@ -108,5 +108,15 @@
     { "title": "Maven 3.6.2", "key": "3.6.2" },
     { "title": "Maven 3.6.1", "key": "3.6.1" },
     { "title": "Maven 3.6.0", "key": "3.6.0" }
+  ],
+  "gradleVersions": [
+    { "title": "Gradle 8.6 (Default)", "key": "8.6" },
+    { "title": "Gradle 8.7", "key": "8.7" },
+    { "title": "Gradle 7.6.4", "key": "7.6.4" },
+    { "title": "Gradle 8.5", "key": "8.5" },
+    { "title": "Gradle 8.4", "key": "8.4" },
+    { "title": "Gradle 7.6.3", "key": "7.6.3" },
+    { "title": "Gradle 8.3", "key": "8.3" },
+    { "title": "Gradle 8.2.1", "key": "8.2.1" }
   ]
 }
