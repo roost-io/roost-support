@@ -5,7 +5,13 @@
     { "title": "Java SE 15", "key": "15" },
     { "title": "Java SE 14", "key": "14" },
     { "title": "Java SE 13", "key": "13" },
-    { "title": "Java SE 12", "key": "12" }
+    { "title": "Java SE 12", "key": "12" },
+    { "title": "Java SE 11", "key": "11" },
+    { "title": "Java SE 10", "key": "10" },
+    { "title": "Java SE 9", "key": "9" },
+    { "title": "Java SE 8", "key": "8" },
+    { "title": "Java SE 7", "key": "7" },
+    { "title": "Java SE 6", "key": "6" }
   ],
   "go": [
     { "title": "go 1.19.9 (Default)", "key": "1.19.9" },
