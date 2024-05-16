@@ -63,7 +63,13 @@
     { "title": "go 1.17", "key": "1.17" }
   ],
   "python": [
-    { "title": "Python 3 (Default)", "key": "3" },
+    { "title": "Python 3 Latest (Default)", "key": "latest" },
+    { "title": "Python 3.11", "key": "3.11" },
+    { "title": "Python 3.10", "key": "3.10" },
+    { "title": "Python 3.9", "key": "3.9" },
+    { "title": "Python 3.8", "key": "3.8" },
+    { "title": "Python 3.7", "key": "3.7" },
+    { "title": "Python 3.6", "key": "3.6" },  
     { "title": "Python 2", "key": "2" }
   ],
   "csharp": [
