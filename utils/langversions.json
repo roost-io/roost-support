@@ -79,7 +79,7 @@
     { "title": "Python 2", "key": "2" }
   ],
   "csharp": [
-    { "title": "C# 11 .NET 7 (Default)", "key": "7" },
+    { "title": "C# 12 .NET 8 (Default)", "key": "8" },
     { "title": "C# 10 .NET 6", "key": "6" }
   ],
   "nodejs": [
