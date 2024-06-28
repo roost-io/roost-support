@@ -1,6 +1,8 @@
 {
   "java": [
     { "title": "Java SE 17 (Default)", "key": "17" },
+    { "title": "Java SE 22", "key": "22" },
+    { "title": "Java SE 21", "key": "21" },
     { "title": "Java SE 16", "key": "16" },
     { "title": "Java SE 15", "key": "15" },
     { "title": "Java SE 14", "key": "14" },
@@ -15,6 +17,8 @@
   ],
   "go": [
     { "title": "go 1.21.5 (Default)", "key": "1.21.5" },
+    { "title": "go 1.22.4", "key": "1.22.4" },
+    { "title": "go 1.21.11", "key": "1.21.11" },
     { "title": "go 1.21.4", "key": "1.21.4" },
     { "title": "go 1.21.3", "key": "1.21.3" },
     { "title": "go 1.21.2", "key": "1.21.2" },
@@ -70,12 +74,13 @@
   ],
   "python": [
     { "title": "Python 3 Latest (Default)", "key": "latest" },
+    { "title": "Python 3.12", "key": "3.12" },
     { "title": "Python 3.11", "key": "3.11" },
     { "title": "Python 3.10", "key": "3.10" },
     { "title": "Python 3.9", "key": "3.9" },
     { "title": "Python 3.8", "key": "3.8" },
     { "title": "Python 3.7", "key": "3.7" },
-    { "title": "Python 3.6", "key": "3.6" },  
+    { "title": "Python 3.6", "key": "3.6" },
     { "title": "Python 2", "key": "2" }
   ],
   "csharp": [
@@ -83,6 +88,8 @@
     { "title": "C# 10 .NET 6", "key": "6" }
   ],
   "nodejs": [
+    { "title": "v22.3.0", "key": "22.3.0" },
+    { "title": "v20.15.0", "key": "20.15.0" },
     { "title": "v20.6.1", "key": "20.6.1" },
     { "title": "v19.9.0", "key": "19.9.0" },
     { "title": "v18.17.1", "key": "18.17.1" },
@@ -123,6 +130,7 @@
   ],
   "gradleVersions": [
     { "title": "Gradle 8.6 (Default)", "key": "8.6" },
+    { "title": "Gradle 8.8", "key": "8.8" },
     { "title": "Gradle 8.7", "key": "8.7" },
     { "title": "Gradle 7.6.4", "key": "7.6.4" },
     { "title": "Gradle 8.5", "key": "8.5" },
