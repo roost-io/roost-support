@@ -1,8 +1,10 @@
 {
   "java": [
     { "title": "Java SE 17 (Default)", "key": "17" },
-    { "title": "Java SE 22", "key": "22" },
     { "title": "Java SE 21", "key": "21" },
+    { "title": "Java SE 20", "key": "20" },
+    { "title": "Java SE 19", "key": "19" },
+    { "title": "Java SE 18", "key": "18" },
     { "title": "Java SE 16", "key": "16" },
     { "title": "Java SE 15", "key": "15" },
     { "title": "Java SE 14", "key": "14" },
@@ -12,8 +14,7 @@
     { "title": "Java SE 10", "key": "10" },
     { "title": "Java SE 9", "key": "9" },
     { "title": "Java SE 8", "key": "8" },
-    { "title": "Java SE 7", "key": "7" },
-    { "title": "Java SE 6", "key": "6" }
+    { "title": "Java SE 7", "key": "7" }
   ],
   "go": [
     { "title": "go 1.21.5 (Default)", "key": "1.21.5" },
