@@ -1,0 +1,13 @@
+bin/RoostCSharpASTParser-alpine filter=lfs diff=lfs merge=lfs -text
+bin/RoostCSharpASTParser-linux filter=lfs diff=lfs merge=lfs -text
+bin/RoostCSharpASTParser-win.exe filter=lfs diff=lfs merge=lfs -text
+bin/RoostCSharpASTParser-macos filter=lfs diff=lfs merge=lfs -text
+bin/raml-cop-linux filter=lfs diff=lfs merge=lfs -text
+bin/raml-cop-macos filter=lfs diff=lfs merge=lfs -text
+bin/raml-cop-alpine filter=lfs diff=lfs merge=lfs -text
+bin/raml-cop-win.exe filter=lfs diff=lfs merge=lfs -text
+bin/roostgpt-win.exe filter=lfs diff=lfs merge=lfs -text
+bin/roostgpt-alpine filter=lfs diff=lfs merge=lfs -text
+bin/roostgpt-macos filter=lfs diff=lfs merge=lfs -text
+bin/roostgpt-linux filter=lfs diff=lfs merge=lfs -text
+bin/roostgpt-1.0.10.vsix filter=lfs diff=lfs merge=lfs -text
