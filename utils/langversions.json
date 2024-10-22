@@ -1,10 +1,10 @@
 {
   "java": [
-    { "title": "Java SE 17 (Default)", "key": "17" },
-    { "title": "Java SE 21", "key": "21" },
+    { "title": "Java SE 21 (Default)", "key": "21" },
     { "title": "Java SE 20", "key": "20" },
     { "title": "Java SE 19", "key": "19" },
     { "title": "Java SE 18", "key": "18" },
+    { "title": "Java SE 17", "key": "17" },
     { "title": "Java SE 16", "key": "16" },
     { "title": "Java SE 15", "key": "15" },
     { "title": "Java SE 14", "key": "14" },
