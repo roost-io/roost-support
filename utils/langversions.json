@@ -17,7 +17,8 @@
     { "title": "Java SE 7", "key": "7" }
   ],
   "go": [
-    { "title": "go 1.21.5 (Default)", "key": "1.21.5" },
+    { "title": "go 1.23.0 (Default)", "key": "1.23.0" },
+    { "title": "go 1.21.5", "key": "1.21.5" },
     { "title": "go 1.22.4", "key": "1.22.4" },
     { "title": "go 1.21.11", "key": "1.21.11" },
     { "title": "go 1.21.4", "key": "1.21.4" },
