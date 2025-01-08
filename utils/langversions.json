@@ -1,12 +1,21 @@
 {
-    "java": [
-        { "title": "Java SE 17 (Default)", "key": "17" },
-        { "title": "Java SE 16", "key": "16" },
-        { "title": "Java SE 15", "key": "15" },
-        { "title": "Java SE 14", "key": "14" },
-        { "title": "Java SE 13", "key": "13" },
-        { "title": "Java SE 12", "key": "12" }
-    ],
+  "java": [
+    { "title": "Java SE 21 (Default)", "key": "21" },
+    { "title": "Java SE 20", "key": "20" },
+    { "title": "Java SE 19", "key": "19" },
+    { "title": "Java SE 18", "key": "18" },
+    { "title": "Java SE 17", "key": "17" },
+    { "title": "Java SE 16", "key": "16" },
+    { "title": "Java SE 15", "key": "15" },
+    { "title": "Java SE 14", "key": "14" },
+    { "title": "Java SE 13", "key": "13" },
+    { "title": "Java SE 12", "key": "12" },
+    { "title": "Java SE 11", "key": "11" },
+    { "title": "Java SE 10", "key": "10" },
+    { "title": "Java SE 9", "key": "9" },
+    { "title": "Java SE 8", "key": "8" },
+    { "title": "Java SE 7", "key": "7" }
+  ],
   "go": [
     { "title": "go 1.23.0 (Default)", "key": "1.23.0" },
     { "title": "go 1.22.7", "key": "1.22.7" },
@@ -71,38 +80,72 @@
     { "title": "go 1.17.2", "key": "1.17.2" },
     { "title": "go 1.17.1", "key": "1.17.1" },
     { "title": "go 1.17", "key": "1.17" }
-],
-    "python": [
-        { "title": "Python 3 (Default)", "key": "3" },
-        { "title": "Python 2", "key": "2" }
-    ],
-    "csharp": [
-        { "title": "C# 11 .NET 7 (Default)", "key": "7" },
-        { "title": "C# 10 .NET 6", "key": "6" }
-    ],
-    "nodejs": [
-        { "title": "v20.6.1", "key": "20.6.1" },
-        { "title": "v19.9.0", "key": "19.9.0" },
-        { "title": "v18.17.1", "key": "18.17.1" },
-        { "title": "v17.19.1", "key": "17.19.1" },
-        { "title": "v16.20.2", "key": "16.20.2" },
-        { "title": "v15.14.0", "key": "15.14.0" },
-        { "title": "v14.21.3", "key": "14.21.3" }
-    ],
-    "mavenVersions": [
-        { "title": "Maven 3.8.6 (Default)", "key": "3.8.6" },
-        { "title": "Maven 3.8.2", "key": "3.8.2" },
-        { "title": "Maven 3.8.1", "key": "3.8.1" },
-        { "title": "Maven 3.8.0", "key": "3.8.0" },
-        { "title": "Maven 3.6.9", "key": "3.6.9" },
-        { "title": "Maven 3.6.8", "key": "3.6.8" },
-        { "title": "Maven 3.6.7", "key": "3.6.7" },
-        { "title": "Maven 3.6.6", "key": "3.6.6" },
-        { "title": "Maven 3.6.5", "key": "3.6.5" },
-        { "title": "Maven 3.6.4", "key": "3.6.4" },
-        { "title": "Maven 3.6.3", "key": "3.6.3" },
-        { "title": "Maven 3.6.2", "key": "3.6.2" },
-        { "title": "Maven 3.6.1", "key": "3.6.1" },
-        { "title": "Maven 3.6.0", "key": "3.6.0" }
-    ]
+  ],
+  "python": [
+    { "title": "Python 3 Latest (Default)", "key": "latest" },
+    { "title": "Python 3.12", "key": "3.12" },
+    { "title": "Python 3.11", "key": "3.11" },
+    { "title": "Python 3.10", "key": "3.10" },
+    { "title": "Python 3.9", "key": "3.9" },
+    { "title": "Python 3.8", "key": "3.8" },
+    { "title": "Python 3.7", "key": "3.7" },
+    { "title": "Python 3.6", "key": "3.6" },
+    { "title": "Python 2", "key": "2" }
+  ],
+  "csharp": [
+    { "title": "C# 12 .NET 8 (Default)", "key": "8" },
+    { "title": "C# 10 .NET 6", "key": "6" }
+  ],
+  "nodejs": [
+    { "title": "v22.3.0", "key": "22.3.0" },
+    { "title": "v20.15.0", "key": "20.15.0" },
+    { "title": "v20.6.1", "key": "20.6.1" },
+    { "title": "v19.9.0", "key": "19.9.0" },
+    { "title": "v18.17.1", "key": "18.17.1" },
+    { "title": "v17.19.1", "key": "17.19.1" },
+    { "title": "v16.20.2", "key": "16.20.2" },
+    { "title": "v15.14.0", "key": "15.14.0" },
+    { "title": "v14.21.3", "key": "14.21.3" }
+  ],
+  "reactjs": [
+    { "title": "v18.2.0", "key": "18.2.0" },
+    { "title": "v18.1.0", "key": "18.1.0" },
+    { "title": "v18.0.0", "key": "18.0.0" },
+    { "title": "v17.0.2", "key": "17.0.2" },
+    { "title": "v17.0.1", "key": "17.0.1" },
+    { "title": "v17.0.0", "key": "17.0.0" },
+    { "title": "v16.14.0", "key": "16.14.0" }
+  ],
+  "cpp": [
+    { "title": "C++23", "key": "23" },
+    { "title": "C++20", "key": "20" },
+    { "title": "C++17", "key": "17" }
+  ],
+  "mavenVersions": [
+    { "title": "Maven 3.8.6 (Default)", "key": "3.8.6" },
+    { "title": "Maven 3.8.2", "key": "3.8.2" },
+    { "title": "Maven 3.8.1", "key": "3.8.1" },
+    { "title": "Maven 3.8.0", "key": "3.8.0" },
+    { "title": "Maven 3.6.9", "key": "3.6.9" },
+    { "title": "Maven 3.6.8", "key": "3.6.8" },
+    { "title": "Maven 3.6.7", "key": "3.6.7" },
+    { "title": "Maven 3.6.6", "key": "3.6.6" },
+    { "title": "Maven 3.6.5", "key": "3.6.5" },
+    { "title": "Maven 3.6.4", "key": "3.6.4" },
+    { "title": "Maven 3.6.3", "key": "3.6.3" },
+    { "title": "Maven 3.6.2", "key": "3.6.2" },
+    { "title": "Maven 3.6.1", "key": "3.6.1" },
+    { "title": "Maven 3.6.0", "key": "3.6.0" }
+  ],
+  "gradleVersions": [
+    { "title": "Gradle 8.6 (Default)", "key": "8.6" },
+    { "title": "Gradle 8.8", "key": "8.8" },
+    { "title": "Gradle 8.7", "key": "8.7" },
+    { "title": "Gradle 7.6.4", "key": "7.6.4" },
+    { "title": "Gradle 8.5", "key": "8.5" },
+    { "title": "Gradle 8.4", "key": "8.4" },
+    { "title": "Gradle 7.6.3", "key": "7.6.3" },
+    { "title": "Gradle 8.3", "key": "8.3" },
+    { "title": "Gradle 8.2.1", "key": "8.2.1" }
+  ]
 }
