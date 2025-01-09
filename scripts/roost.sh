@@ -464,8 +464,8 @@ install_prereqs_jumphost() {
 }
 
 generate_cert() {
-  ROOST_VERSION=${ROOST_VERSION:-dev}
-  GIT_URL="https://raw.githubusercontent.com/roost-io/roost-support/${ROOST_VERSION}"
+  ROOST_VERSION=${ROOST_VERSION:-latest}
+  GIT_URL="https://github.com/roost-io/roost-support/releases/download/${ROOST_VERSION}"
   curl -s ${GIT_URL}/bin/roostcertgen.gz > "$ROOST_BIN/roostcertgen.gz"
   if [ -f "$ROOST_BIN/roostcertgen.gz" ]; then
     gunzip -f ${ROOST_BIN}/roostcertgen.gz
@@ -505,7 +505,7 @@ main() {
     
     # ${ROOST_BIN}/$INSTALLER --command setup
 
-    ROOST_VERSION=${ROOST_VERSION:-v1.1.11}
+    ROOST_VERSION=${ROOST_VERSION:-latest}
     GIT_URL="https://github.com/roost-io/roost-support/releases/download/${ROOST_VERSION}"
     # GIT_URL="https://raw.githubusercontent.com/roost-io/roost-support/${ROOST_VERSION}"
     
