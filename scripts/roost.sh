@@ -465,8 +465,8 @@ install_prereqs_jumphost() {
 
 generate_cert() {
   ROOST_VERSION=${ROOST_VERSION:-latest}
-  GIT_URL="https://github.com/roost-io/roost-support/releases/download/${ROOST_VERSION}"
-  curl -s ${GIT_URL}/bin/roostcertgen.gz > "$ROOST_BIN/roostcertgen.gz"
+  GIT_URL="https://github.com/roost-io/roost-support/releases/latest/download/"
+  curl -s ${GIT_URL}/roostcertgen.gz > "$ROOST_BIN/roostcertgen.gz"
   if [ -f "$ROOST_BIN/roostcertgen.gz" ]; then
     gunzip -f ${ROOST_BIN}/roostcertgen.gz
     chmod +x "$ROOST_BIN/roostcertgen"
@@ -506,12 +506,12 @@ main() {
     # ${ROOST_BIN}/$INSTALLER --command setup
 
     ROOST_VERSION=${ROOST_VERSION:-latest}
-    GIT_URL="https://github.com/roost-io/roost-support/releases/download/${ROOST_VERSION}"
+    GIT_URL="https://github.com/roost-io/roost-support/releases/latest/download/"
     # GIT_URL="https://raw.githubusercontent.com/roost-io/roost-support/${ROOST_VERSION}"
     
-    curl -sL ${GIT_URL}/scripts/roost-enterprise.sh > "$ROOST_BIN/roost-enterprise.sh"
-    curl -sL ${GIT_URL}/scripts/main-config.json > "$ROOST_DIR/config.json"
-    curl -sL ${GIT_URL}/scripts/roost.sql > "$ROOST_DIR/db/roost.sql"
+    curl -sL ${GIT_URL}/roost-enterprise.sh > "$ROOST_BIN/roost-enterprise.sh"
+    curl -sL ${GIT_URL}/main-config.json > "$ROOST_DIR/config.json"
+    curl -sL ${GIT_URL}/roost.sql > "$ROOST_DIR/db/roost.sql"
     if [ -f "$ROOST_BIN/roost-enterprise.sh" ]; then
       chmod +x "$ROOST_BIN/roost-enterprise.sh"
     fi
