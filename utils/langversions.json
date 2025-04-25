@@ -8,7 +8,10 @@
     { "title": "Java SE 16", "key": "16" }
   ],
   "go": [
-    { "title": "go 1.23.0 (Default)", "key": "1.23.0" },
+    { "title": "go 1.24.0 (Default)", "key": "1.24.0" },
+    { "title": "go 1.24.1", "key": "1.24.1" },
+    { "title": "go 1.24.2", "key": "1.24.2" },
+    { "title": "go 1.23.0", "key": "1.23.0" },
     { "title": "go 1.23.4", "key": "1.23.4" },
     { "title": "go 1.23.3", "key": "1.23.3" },
     { "title": "go 1.23.2", "key": "1.23.2" },
