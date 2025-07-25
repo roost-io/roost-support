@@ -1,4 +1,4 @@
-package main.java.com.example.logmodifier;
+package com.example.logmodifier;
 
 import java.util.List;
 import java.util.Arrays;
