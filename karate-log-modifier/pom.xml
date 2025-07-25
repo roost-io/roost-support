@@ -14,18 +14,12 @@
     </properties>
 
     <dependencies>
-              <dependency>
-                <groupId>com.intuit.karate</groupId>
-                <artifactId>karate-core</artifactId>
-                <version>1.4.1</version>
-      <!--Dependency added by RoostGPT-->
-              </dependency>
-             <dependency>
-                 <groupId>com.intuit.karate</groupId>
-                 <artifactId>karate-junit5</artifactId>
-                 <version>1.4.1</version>
-                 <scope>test</scope>
-             </dependency>
+<!-- https://mvnrepository.com/artifact/io.karatelabs/karate-core -->
+<dependency>
+    <groupId>io.karatelabs</groupId>
+    <artifactId>karate-core</artifactId>
+    <version>1.5.1</version>
+</dependency>
          </dependencies>
 
 
