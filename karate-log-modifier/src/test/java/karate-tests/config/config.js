@@ -41,7 +41,7 @@ function fn() {
   };
 
   // Configure log modifier globally
-  const LM = Java.type("hello.LogModifier");
+  const LM = Java.type("logmodifier.LogModifier");
   karate.configure("logModifier", new LM());
 
   // karate.log('Karate configuration:', config);
