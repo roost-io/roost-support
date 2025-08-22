@@ -12,7 +12,7 @@ macos() {
     curl -o /var/tmp/roostgpt -L $url
     echo "install roostgpt binary"
     chmod +x /var/tmp/roostgpt
-    cp /var/tmp/roostgpt /usr/local/bin
+    sudo cp /var/tmp/roostgpt /usr/local/bin
 }
 
 linux() {
@@ -21,7 +21,7 @@ linux() {
     curl -o /var/tmp/roostgpt -L $url
     echo "install roostgpt binary"
     chmod +x /var/tmp/roostgpt
-    cp /var/tmp/roostgpt /usr/local/bin
+    sudo cp /var/tmp/roostgpt /usr/local/bin
 }
 
 windows() {
