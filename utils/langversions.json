@@ -144,14 +144,23 @@
     { "title": "Maven 3.6.0", "key": "3.6.0" }
   ],
   "gradleVersions": [
-    { "title": "Gradle 8.6 (Default)", "key": "8.6" },
+    { "title": "Gradle 9.1.0 (Default)", "key": "9.1.0" },
+    { "title": "Gradle 9.0.0", "key": "9.0.0" },
+    { "title": "Gradle 8.14", "key": "8.14" },
+    { "title": "Gradle 8.13", "key": "8.13" },
+    { "title": "Gradle 8.12", "key": "8.12" },
+    { "title": "Gradle 8.11", "key": "8.11" },
+    { "title": "Gradle 8.10", "key": "8.10" },
+    { "title": "Gradle 8.9", "key": "8.9" },
     { "title": "Gradle 8.8", "key": "8.8" },
     { "title": "Gradle 8.7", "key": "8.7" },
-    { "title": "Gradle 7.6.4", "key": "7.6.4" },
+    { "title": "Gradle 8.6", "key": "8.6" },
     { "title": "Gradle 8.5", "key": "8.5" },
     { "title": "Gradle 8.4", "key": "8.4" },
-    { "title": "Gradle 7.6.3", "key": "7.6.3" },
     { "title": "Gradle 8.3", "key": "8.3" },
     { "title": "Gradle 8.2.1", "key": "8.2.1" }
+    { "title": "Gradle 7.6.4", "key": "7.6.4" },
+    { "title": "Gradle 7.6.3", "key": "7.6.3" },
   ]
 }
+
