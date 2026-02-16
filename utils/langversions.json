@@ -128,7 +128,17 @@
     { "title": "C++17", "key": "17" }
   ],
   "mavenVersions": [
-    { "title": "Maven 3.8.6 (Default)", "key": "3.8.6" },
+    { "title": "Maven 3.9.12 (Default)", "key": "3.9.12" },
+    { "title": "Maven 3.9.11", "key": "3.9.11" },
+    { "title": "Maven 3.9.10", "key": "3.9.10" },
+    { "title": "Maven 3.9.9", "key": "3.9.9" },
+    { "title": "Maven 3.9.8", "key": "3.9.8" },
+    { "title": "Maven 3.9.7", "key": "3.9.7" },
+    { "title": "Maven 3.9.6", "key": "3.9.6" },
+    { "title": "Maven 3.8.9", "key": "3.8.9" },
+    { "title": "Maven 3.8.8", "key": "3.8.8" },
+    { "title": "Maven 3.8.7", "key": "3.8.7" },
+    { "title": "Maven 3.8.6", "key": "3.8.6" },
     { "title": "Maven 3.8.2", "key": "3.8.2" },
     { "title": "Maven 3.8.1", "key": "3.8.1" },
     { "title": "Maven 3.8.0", "key": "3.8.0" },
@@ -163,6 +173,7 @@
     { "title": "Gradle 7.6.3", "key": "7.6.3" }
   ]
 }
+
 
 
 
