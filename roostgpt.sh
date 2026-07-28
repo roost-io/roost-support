@@ -7,7 +7,12 @@ echo "OS:[$OS]"
 base_url="https://github.com/roost-io/roost-support/releases/latest/download/roostgpt-"
 
 macos() {
-    url="${base_url}macos"
+    arch=$(uname -m)
+    if [ "$arch" = "arm64" ]; then
+        url="${base_url}macos-arm"
+    else
+        url="${base_url}macos"
+    fi
     echo "Download MacOS binary from $url"
     curl -o /var/tmp/roostgpt -L $url
     echo "install roostgpt binary"
@@ -26,9 +31,10 @@ linux() {
 
 windows() {
     url="${base_url}win.exe"
-    echo "Download windows binary from $url"
+    echo "Download Windows binary from $url to C:/Windows/Temp/roostgpt.exe"
     curl -o C:/Windows/Temp/roostgpt.exe -L $url
-    echo "install roostgpt binary"
+    echo "install roostgpt binary to C:/Windows/System32/roostgpt.exe"
+	curl -o C:/Windows/System32/roostgpt.exe -L $url
 }
 
 sorry() {
