@@ -7,7 +7,12 @@ echo "OS:[$OS]"
 base_url="https://github.com/roost-io/roost-support/releases/latest/download/roostgpt-"
 
 macos() {
-    url="${base_url}macos"
+    arch=$(uname -m)
+    if [ "$arch" = "arm64" ]; then
+        url="${base_url}macos-arm"
+    else
+        url="${base_url}macos"
+    fi
     echo "Download MacOS binary from $url"
     curl -o /var/tmp/roostgpt -L $url
     echo "install roostgpt binary"
